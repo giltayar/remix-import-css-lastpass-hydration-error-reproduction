@@ -13,13 +13,21 @@ export const meta = () => ({
   viewport: "width=device-width,initial-scale=1",
 });
 
+export const links = () => [
+  {
+    rel: "stylesheet",
+    href:
+      "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Roboto+Mono:wght@500&display=swap",
+  },
+]
+
 export default function App() {
   return (
     <html lang="en">
       <head>
         <Meta />
         <Links />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=Roboto+Mono:wght@500&amp;display=swap" />
+        {/* <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=Roboto+Mono:wght@500&amp;display=swap" /> */}
         {/* <style>
           @import 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Roboto+Mono:wght@500&display=swap'
         </style> */}
